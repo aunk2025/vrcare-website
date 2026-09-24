@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital KPIs Explained: Occupancy, ALOS and Bed Utilisation | VR Care Blog</title>
+  <meta name="description" content="Understand four important hospital KPIs: bed occupancy, average length of stay, discharge turnaround time and bed utilisation, including how to interpret them." />
+  <link rel="canonical" href="https://www.vrcare.in/blog/hospital-kpis-occupancy-alos-bed-utilisation.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.vrcare.in/blog/hospital-kpis-occupancy-alos-bed-utilisation.html" />
+  <meta property="og:title" content="Hospital KPIs Explained: Occupancy, ALOS, Discharge Time and Bed Utilisation" />
+  <meta property="og:description" content="Understand four important hospital KPIs: bed occupancy, average length of stay, discharge turnaround time and bed utilisation, including how to interpret them." />
+  <meta property="og:site_name" content="VR Care India" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hospital KPIs Explained: Occupancy, ALOS, Discharge Time and Bed Utilisation" />
+  <meta name="twitter:description" content="Understand four important hospital KPIs: bed occupancy, average length of stay, discharge turnaround time and bed utilisation, including how to interpret them." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Hospital KPIs Explained: Occupancy, ALOS, Discharge Time and Bed Utilisation",
+    "description": "Understand four important hospital KPIs: bed occupancy, average length of stay, discharge turnaround time and bed utilisation, including how to interpret them.",
+    "url": "https://www.vrcare.in/blog/hospital-kpis-occupancy-alos-bed-utilisation.html",
+    "author": { "@type": "Person", "name": "Afzal Shaikh", "description": "Afzal Shaikh has 25+ years of experience in hospital operations and management, supporting hospitals with operational improvement, systems and performance management." },
+    "publisher": { "@id": "https://www.vrcare.in/#organization" },
+    "mainEntityOfPage": "https://www.vrcare.in/blog/hospital-kpis-occupancy-alos-bed-utilisation.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.vrcare.in/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.vrcare.in/blog/index.html" },
+      { "@type": "ListItem", "position": 3, "name": "Hospital KPIs Explained: Occupancy, ALOS, Discharge Time and Bed Utilisation", "item": "https://www.vrcare.in/blog/hospital-kpis-occupancy-alos-bed-utilisation.html" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How do you calculate hospital bed occupancy rate?", "acceptedAnswer": { "@type": "Answer", "text": "A common calculation is occupied patient bed days divided by available bed days, multiplied by 100. The hospital should document how it defines available beds and patient bed days." } },
+      { "@type": "Question", "name": "What is ALOS in a hospital?", "acceptedAnswer": { "@type": "Answer", "text": "ALOS means average length of stay. It estimates the average time in hospital for inpatients over a defined period. The calculation and included discharge categories should be consistent and documented." } },
+      { "@type": "Question", "name": "Is a high bed occupancy rate good?", "acceptedAnswer": { "@type": "Answer", "text": "Not necessarily. A high rate may indicate strong demand, but it should be considered alongside staffed bed availability, patient flow, service mix and the hospital's ability to provide appropriate care." } },
+      { "@type": "Question", "name": "Is bed utilisation the same as bed occupancy?", "acceptedAnswer": { "@type": "Answer", "text": "Sometimes the terms are used similarly, but \"bed utilisation\" can be broader or defined differently by different hospitals. State the exact formula and the type of beds included." } },
+      { "@type": "Question", "name": "What is a good discharge turnaround time?", "acceptedAnswer": { "@type": "Answer", "text": "There is no single figure that fits every hospital. Define the start and end points, study the time taken at each stage and review delays with the relevant teams. Do not use a speed target in a way that compromises appropriate discharge decisions." } },
+      { "@type": "Question", "name": "How often should these hospital KPIs be reviewed?", "acceptedAnswer": { "@type": "Answer", "text": "The review frequency depends on the measure and the hospital's management process. Operational issues may need more frequent review than longer-term trends. Keep the definitions consistent so that comparisons remain meaningful." } }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/svg+xml" href="../logo.png" />
+</head>
+<body>
+
+  <div class="bg-glow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">
+        <img src="../logo.png" alt="VR Care Logo">
+        <span class="nav-logo-text">VR Care</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="../services.html">
+            Services
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../hospital-operations-and-management/index.html">Hospital Operations & Management</a>
+            <a href="../hospital-operational-and-management-audit/index.html">Operational & Management Audit</a>
+            <a href="../hospital-o-and-m-pricing/index.html">Hospital O&M Pricing</a>
+            <a href="../hospital-turnaround-and-profitability/index.html">Turnaround & Profitability</a>
+            <a href="../new-hospital-project-planning/index.html">New Hospital Project Planning</a>
+            <a href="../nabh-jci-and-international-healthcare-accreditations/index.html">NABH & JCI Accreditations</a>
+            <a href="../hospital-feasibility-study-dpr/index.html">Feasibility Study & DPR</a>
+            <a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="../VR-Care-Transforming-Hospitals-OM-and-Compliant-Systems.pdf" target="_blank" rel="noopener noreferrer">
+            Brochures
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../VR-Care-Transforming-Hospitals-OM-and-Compliant-Systems.pdf" target="_blank">Transforming Hospitals O&M and Compliant Systems</a>
+          </div>
+        </div>
+        <a href="index.html" class="active">Blogs</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <a href="https://calendly.com/afzal-vrcare/online-meet" class="nav-cta" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        Book Consultation
+      </a>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <article class="blog-article">
+    <div class="container">
+      <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a><span class="sep">/</span><a href="index.html">Blog</a><span class="sep">/</span><span>Hospital KPIs Explained</span>
+      </nav>
+
+      <div class="blog-article-meta">Operations</div>
+      <h1 class="blog-article-heading">Hospital KPIs Explained: Occupancy, ALOS, Discharge Time and Bed Utilisation</h1>
+
+      <div class="blog-hero-placeholder" role="img" aria-label="Hospital operations team reviewing bed occupancy, length of stay and discharge flow indicators">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"></path><rect x="7" y="10" width="4" height="11"></rect><rect x="15" y="3" width="4" height="18"></rect></svg>
+      </div>
+
+      <div class="blog-quick-answer">
+        <div class="blog-quick-answer-label">Quick Answer</div>
+        <p>Hospital KPIs help leaders understand how services and resources are working. Bed occupancy, ALOS, discharge turnaround time and bed utilisation can reveal operational patterns, but each needs a clear definition and context.</p>
+      </div>
+
+      <div class="blog-toc">
+        <div class="blog-toc-title">In This Article</div>
+        <ol>
+          <li><a href="#what-are-kpis">What are hospital KPIs?</a></li>
+          <li><a href="#bed-occupancy">1. Bed occupancy rate</a></li>
+          <li><a href="#alos">2. Average length of stay (ALOS)</a></li>
+          <li><a href="#discharge-time">3. Discharge turnaround time</a></li>
+          <li><a href="#bed-utilisation">4. Bed utilisation</a></li>
+          <li><a href="#comparing">Comparing the four measures</a></li>
+          <li><a href="#use-together">How should hospitals use these KPIs together?</a></li>
+          <li><a href="#mistakes">Common KPI mistakes to avoid</a></li>
+          <li><a href="#faq">Frequently asked questions</a></li>
+        </ol>
+      </div>
+
+      <div class="blog-body">
+        <p>Hospital KPIs help leaders understand how well services and resources are working. Bed occupancy, average length of stay, discharge turnaround time and bed utilisation can reveal operational patterns, but each measure needs a clear definition and the right context.</p>
+        <div class="blog-callout"><strong>A KPI is useful when leaders know what it measures, where the data comes from, who reviews it and what action may follow.</strong> No single occupancy or ALOS target applies to every hospital.</div>
+
+        <h2 id="what-are-kpis">What are hospital KPIs?</h2>
+        <p>Hospital KPIs, or key performance indicators, are measures used to monitor selected areas of hospital performance. They can help leaders review patient flow, bed capacity, service delivery, staffing, quality and financial performance.</p>
+        <p>India's Ministry of Health and Family Welfare includes indicators such as bed occupancy, ALOS and cancelled surgeries in its Indian Public Health Standards for district hospitals. Hospitals should use the definitions and requirements that apply to their own type of institution and operating context.</p>
+
+        <h2 id="bed-occupancy">1. Bed occupancy rate</h2>
+        <p>Bed occupancy rate estimates how much of a hospital's available bed capacity is occupied over a defined period.</p>
+        <p>A commonly used formula is:</p>
+        <div class="blog-formula">Bed occupancy rate = occupied patient bed days &divide; available bed days &times; 100</div>
+        <p>For a monthly calculation, available bed days are usually calculated using the number of functional or available beds multiplied by the number of days in the period. The MoHFW's IPHS formula uses functional beds and calendar days.</p>
+        <h3>What can occupancy tell hospital leaders?</h3>
+        <p>Occupancy can help leaders consider:</p>
+        <ul>
+          <li>Whether beds are being used in line with demand</li>
+          <li>Whether particular wards or services face capacity pressure</li>
+          <li>Whether staffed, functional beds match the number of beds reported</li>
+          <li>Whether admission and discharge processes need review</li>
+        </ul>
+        <h3>What occupancy cannot tell you by itself</h3>
+        <p>A high occupancy rate does not automatically mean the hospital is performing well. Leaders need to consider service mix, bed availability, patient flow and safe capacity. A low rate also needs context: it may reflect demand, staffing, service availability or how bed capacity has been defined.</p>
+        <p>The WHO advises that bed occupancy should be interpreted alongside other information. It also cautions that there is no single occupancy level that is optimal for every situation.</p>
+
+        <h2 id="alos">2. Average length of stay (ALOS)</h2>
+        <p>Average length of stay estimates how long inpatients stay in the hospital on average during a defined period.</p>
+        <p>A common formula is:</p>
+        <div class="blog-formula">ALOS = inpatient bed days &divide; inpatient discharges during the same period</div>
+        <p>The exact counting rules should be documented. For example, the MoHFW's IPHS calculation specifies which discharges to include and excludes newborns from patient bed days in its district-hospital reporting format.</p>
+        <h3>How should leaders interpret ALOS?</h3>
+        <p>ALOS is best reviewed alongside:</p>
+        <ul>
+          <li>Specialty and case mix</li>
+          <li>Patient outcomes and readmissions, where relevant</li>
+          <li>Discharge planning and delays</li>
+          <li>Service capacity and care pathways</li>
+          <li>Trends over time using consistent definitions</li>
+        </ul>
+        <p>A shorter stay is not automatically better. A delay in treatment or discharge may affect ALOS, but shortening a stay without considering the patient's needs would not be a sound management goal. The WHO notes that ALOS varies with the cases and care provided and should be interpreted with other information.</p>
+
+        <h2 id="discharge-time">3. Discharge turnaround time</h2>
+        <p>Discharge turnaround time measures the time taken for a defined discharge process to move from a specified start point to a specified end point.</p>
+        <p>Hospitals may use different start and end points, so the definition should be explicit. For example, a hospital might measure from the recorded discharge decision to the patient leaving the bed, while also tracking separate process stages such as documentation, billing and pharmacy clearance.</p>
+        <p>The chosen measure should:</p>
+        <ul>
+          <li>Use reliable timestamps</li>
+          <li>Clarify which patient groups or discharge types are included</li>
+          <li>Separate delays by stage where possible</li>
+          <li>Be reviewed with the relevant department teams</li>
+          <li>Protect appropriate clinical decision-making</li>
+        </ul>
+        <p>A discharge time KPI should support better coordination and visibility. It should not encourage a discharge before the responsible clinical team considers it appropriate.</p>
+
+        <h2 id="bed-utilisation">4. Bed utilisation</h2>
+        <p>"Bed utilisation" is sometimes used to mean bed occupancy, and sometimes used more broadly to describe whether bed capacity is available and being used effectively.</p>
+        <p>To avoid confusion, a hospital should state exactly what its measure means. It should clarify:</p>
+        <ul>
+          <li>Which beds count as available: installed, functional, staffed or open beds</li>
+          <li>Which patient days are included</li>
+          <li>The reporting period and census method</li>
+          <li>Whether closed beds or temporary capacity changes are excluded</li>
+        </ul>
+        <p>If two departments use different definitions, their figures may not be comparable. Documenting the numerator and denominator makes trends more useful.</p>
+
+        <h2 id="comparing">Comparing the four measures</h2>
+        <div class="blog-table-wrap">
+          <table>
+            <thead><tr><th>KPI</th><th>What it describes</th><th>Useful follow-up question</th></tr></thead>
+            <tbody>
+              <tr><td>Bed occupancy rate</td><td>Occupied bed days compared with available bed days</td><td>Do we have the right number of functional and staffed beds for demand?</td></tr>
+              <tr><td>ALOS</td><td>Average inpatient stay over a defined period</td><td>What explains the change, and how does it vary by specialty or case mix?</td></tr>
+              <tr><td>Discharge turnaround time</td><td>Time taken across a defined discharge process</td><td>Which stage is contributing most to delay?</td></tr>
+              <tr><td>Bed utilisation</td><td>How hospital-defined bed capacity is being used</td><td>Are the bed definitions and data consistent across services?</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 id="use-together">How should hospitals use these KPIs together?</h2>
+        <p>These measures are more useful when reviewed together than in isolation. For example, if occupancy changes, leaders can examine bed availability, admissions and discharges. If ALOS changes, they can review case mix and patient pathways. If discharge turnaround time rises, they can identify which step is taking longer.</p>
+        <p>A practical review process should:</p>
+        <ul>
+          <li>Confirm the indicator's definition and data source.</li>
+          <li>Compare it with the hospital's own previous periods using the same method.</li>
+          <li>Look for differences by department or service where appropriate.</li>
+          <li>Ask teams for operational context.</li>
+          <li>Agree on an action owner and a date to review progress.</li>
+        </ul>
+        <p>The MoHFW's IPHS documents state that the guidelines are revised over time and allow flexibility for the needs of different states and regions. Hospitals should therefore confirm which current requirements apply to their setting.</p>
+
+        <h2 id="mistakes">Common KPI mistakes to avoid</h2>
+        <ul>
+          <li>Comparing figures calculated with different bed or discharge definitions</li>
+          <li>Setting the same target for hospitals with different specialties or operating models</li>
+          <li>Treating a change in one KPI as proof of a specific cause</li>
+          <li>Focusing on speed without considering patient needs and quality</li>
+          <li>Reporting a number without assigning anyone to review or act on it</li>
+          <li>Making decisions from incomplete or unverified data</li>
+        </ul>
+      </div>
+
+      <div class="blog-author-box">
+        <div class="blog-author-avatar">AS</div>
+        <div>
+          <div class="blog-author-name">Afzal Shaikh, Founder of VR Care</div>
+          <div class="blog-author-bio">Afzal Shaikh has 25+ years of experience in hospital operations and management, supporting hospitals with operational improvement, systems and performance management.</div>
+        </div>
+      </div>
+
+      <div class="blog-share-cta">
+        <p style="font-weight: 600; color: var(--text-white); margin-bottom: 16px;">If your hospital is tracking KPIs but the numbers are not leading to clear action, start by checking whether the definitions, data and review ownership are clear.</p>
+        <a href="../hospital-operations-and-management/index.html" class="btn-cta" style="display: inline-block;">Discuss a Hospital Performance Review</a>
+      </div>
+
+      <div class="blog-body blog-faq" id="faq">
+        <h2>Frequently asked questions</h2>
+        <div class="blog-faq-item">
+          <h3>How do you calculate hospital bed occupancy rate?</h3>
+          <p>A common calculation is occupied patient bed days divided by available bed days, multiplied by 100. The hospital should document how it defines available beds and patient bed days.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>What is ALOS in a hospital?</h3>
+          <p>ALOS means average length of stay. It estimates the average time in hospital for inpatients over a defined period. The calculation and included discharge categories should be consistent and documented.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>Is a high bed occupancy rate good?</h3>
+          <p>Not necessarily. A high rate may indicate strong demand, but it should be considered alongside staffed bed availability, patient flow, service mix and the hospital's ability to provide appropriate care.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>Is bed utilisation the same as bed occupancy?</h3>
+          <p>Sometimes the terms are used similarly, but "bed utilisation" can be broader or defined differently by different hospitals. State the exact formula and the type of beds included.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>What is a good discharge turnaround time?</h3>
+          <p>There is no single figure that fits every hospital. Define the start and end points, study the time taken at each stage and review delays with the relevant teams. Do not use a speed target in a way that compromises appropriate discharge decisions.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>How often should these hospital KPIs be reviewed?</h3>
+          <p>The review frequency depends on the measure and the hospital's management process. Operational issues may need more frequent review than longer-term trends. Keep the definitions consistent so that comparisons remain meaningful.</p>
+        </div>
+      </div>
+
+      <div class="blog-body blog-further-reading">
+        <h2>Further reading</h2>
+        <ul>
+          <li><a href="https://clinicalestablishments.mohfw.gov.in/en/iphs" target="_blank" rel="noopener noreferrer">MoHFW: Indian Public Health Standards</a></li>
+          <li><a href="https://clinicalestablishments.mohfw.gov.in/sites/default/files/2021-12/108.pdf" target="_blank" rel="noopener noreferrer">MoHFW: Indian Public Health Standards for District Hospitals</a></li>
+          <li><a href="https://www.who.int/docs/default-source/documents/ddi/facilityanalysisguidance-integratedhealthsservices.pdf" target="_blank" rel="noopener noreferrer">WHO: Analysis and use of health facility data</a></li>
+          <li><a href="../hospital-operations-and-management/index.html">VR Care: Hospital Operations &amp; Management</a></li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="../logo.png" alt="VR Care Logo" >
+            <span class="footer-logo-text">VR Care</span>
+          </div>
+          <p class="footer-tagline">Transforming Healthcare, One Hospital at a Time. India s trusted partner in hospital operations and excellence.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/vrcareHospitalManagement" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://www.instagram.com/vrcareindia/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/-afzali9/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://wa.me/919326330109" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.878-.788-1.47-1.761-1.643-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About VR Care</a></li>
+            <li><a href="../services.html">Our Services</a></li>
+            <li><a href="index.html">Blogs</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-links">
+            <li><a href="../hospital-operations-and-management/index.html">Operations & Management</a></li>
+            <li><a href="../hospital-operational-and-management-audit/index.html">Operational Audit</a></li>
+            <li><a href="../hospital-o-and-m-pricing/index.html">O&M Pricing</a></li>
+            <li><a href="../hospital-turnaround-and-profitability/index.html">Turnaround & Profitability</a></li>
+            <li><a href="../new-hospital-project-planning/index.html">Project Planning</a></li>
+            <li><a href="../nabh-jci-and-international-healthcare-accreditations/index.html">NABH & JCI Accreditations</a></li>
+            <li><a href="../hospital-feasibility-study-dpr/index.html">Feasibility Study & DPR</a></li>
+            <li><a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <a href="https://www.google.com/maps/search/Pinnacle+Business+Park,+Mahakali+Caves+Road" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><span>First Floor, Pinnacle Business Park, Andheri East, Mumbai</span></a>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>+91 93263 30109</span>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>info@vrcare.in</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VR Care India. All Rights Reserved.</p>
+        <p class="footer-disclaimer">Disclaimer: All services are advisory and operational in nature. VR Care does not provide direct medical treatment or clinical care.</p>
+        <div class="footer-bottom-links">
+          <a href="../privacy-policy.html">Privacy Policy</a>
+          <a href="../terms-and-conditions.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:+919326330109" class="phone-float" aria-label="Call us">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+    </svg>
+  </a>
+  <a href="https://wa.me/919326330109" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.878-.788-1.47-1.761-1.643-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="../script.js"></script>
+</body>
+</html>
