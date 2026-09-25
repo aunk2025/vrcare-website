@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital Profitability: Find Revenue Leakage | VR Care Blog</title>
+  <meta name="description" content="Learn how hospitals can improve profitability by identifying revenue leakage, strengthening billing and collections, and tracking the right performance measures." />
+  <link rel="canonical" href="https://www.vrcare.in/blog/hospital-profitability-revenue-leakage.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.vrcare.in/blog/hospital-profitability-revenue-leakage.html" />
+  <meta property="og:title" content="How Hospitals Can Improve Profitability by Finding Revenue Leakage" />
+  <meta property="og:description" content="Learn how hospitals can improve profitability by identifying revenue leakage, strengthening billing and collections, and tracking the right performance measures." />
+  <meta property="og:site_name" content="VR Care India" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How Hospitals Can Improve Profitability by Finding Revenue Leakage" />
+  <meta name="twitter:description" content="Learn how hospitals can improve profitability by identifying revenue leakage, strengthening billing and collections, and tracking the right performance measures." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How Hospitals Can Improve Profitability by Finding Revenue Leakage",
+    "description": "Learn how hospitals can improve profitability by identifying revenue leakage, strengthening billing and collections, and tracking the right performance measures.",
+    "url": "https://www.vrcare.in/blog/hospital-profitability-revenue-leakage.html",
+    "author": { "@type": "Person", "name": "Afzal Shaikh", "description": "Afzal Shaikh has 25+ years of experience in hospital operations and management, supporting hospitals with operational improvement, systems and performance management." },
+    "publisher": { "@id": "https://www.vrcare.in/#organization" },
+    "mainEntityOfPage": "https://www.vrcare.in/blog/hospital-profitability-revenue-leakage.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.vrcare.in/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.vrcare.in/blog/index.html" },
+      { "@type": "ListItem", "position": 3, "name": "How Hospitals Can Improve Profitability by Finding Revenue Leakage", "item": "https://www.vrcare.in/blog/hospital-profitability-revenue-leakage.html" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How can a hospital improve profitability?", "acceptedAnswer": { "@type": "Answer", "text": "A hospital can improve profitability by capturing legitimate revenue accurately, reducing preventable claim deductions and delays, managing costs responsibly, improving capacity use and monitoring cash collection alongside revenue." } },
+      { "@type": "Question", "name": "What causes revenue leakage in a hospital?", "acceptedAnswer": { "@type": "Answer", "text": "Common causes include missed or inaccurate charges, outdated tariffs, pharmacy and consumable discrepancies, incomplete claims, uncontrolled adjustments, underused capacity and weak receivables follow-up." } },
+      { "@type": "Question", "name": "How do you calculate ARPOB?", "acceptedAnswer": { "@type": "Answer", "text": "Divide the eligible hospital revenue for a defined period by occupied bed-days for the same period. Define which revenue categories are included and use the same method consistently." } },
+      { "@type": "Question", "name": "Does a higher ARPOB always mean higher profit?", "acceptedAnswer": { "@type": "Answer", "text": "No. ARPOB measures revenue per occupied bed-day, not profit. Costs, payer mix, occupancy, specialty mix, length of stay, claim deductions and the revenue definition all affect the final result." } },
+      { "@type": "Question", "name": "Is hospital revenue the same as hospital profit?", "acceptedAnswer": { "@type": "Answer", "text": "No. Revenue is the amount earned under the hospital's reporting rules. Profitability also depends on operating costs and the accounting basis used to calculate measures such as EBITDA." } }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/svg+xml" href="../logo.png" />
+</head>
+<body>
+
+  <div class="bg-glow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="../index.html" class="nav-logo">
+        <img src="../logo.png" alt="VR Care Logo">
+        <span class="nav-logo-text">VR Care</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="../services.html">
+            Services
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../hospital-operations-and-management/index.html">Hospital Operations & Management</a>
+            <a href="../hospital-operational-and-management-audit/index.html">Operational & Management Audit</a>
+            <a href="../hospital-o-and-m-pricing/index.html">Hospital O&M Pricing</a>
+            <a href="../hospital-turnaround-and-profitability/index.html">Turnaround & Profitability</a>
+            <a href="../new-hospital-project-planning/index.html">New Hospital Project Planning</a>
+            <a href="../nabh-jci-and-international-healthcare-accreditations/index.html">NABH & JCI Accreditations</a>
+            <a href="../hospital-feasibility-study-dpr/index.html">Feasibility Study & DPR</a>
+            <a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="../VR-Care-Transforming-Hospitals-OM-and-Compliant-Systems.pdf" target="_blank" rel="noopener noreferrer">
+            Brochures
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../VR-Care-Transforming-Hospitals-OM-and-Compliant-Systems.pdf" target="_blank">Transforming Hospitals O&M and Compliant Systems</a>
+          </div>
+        </div>
+        <a href="index.html" class="active">Blogs</a>
+        <a href="../contact.html">Contact Us</a>
+      </div>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <a href="https://calendly.com/afzal-vrcare/online-meet" class="nav-cta" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        Book Consultation
+      </a>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <article class="blog-article">
+    <div class="container">
+      <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a><span class="sep">/</span><a href="index.html">Blog</a><span class="sep">/</span><span>Hospital Profitability</span>
+      </nav>
+
+      <div class="blog-article-meta">Finance</div>
+      <h1 class="blog-article-heading">How Hospitals Can Improve Profitability by Finding Revenue Leakage</h1>
+
+      <div class="blog-article-image">
+        <img src="blog-07-hospital-profitability-hero.png" alt="Afzal Shaikh portrait beside a hospital profitability and revenue-cycle graphic" loading="lazy">
+      </div>
+
+      <div class="blog-quick-answer">
+        <div class="blog-quick-answer-label">Quick Answer</div>
+        <p>Hospital profitability improves when the hospital captures the revenue it has legitimately earned, controls avoidable costs and uses its beds, staff, operating theatres and diagnostic services effectively. The first step is to find where expected revenue is lost between care delivery, billing, claims, collections and financial reporting.</p>
+      </div>
+
+      <div class="blog-toc">
+        <div class="blog-toc-title">In This Article</div>
+        <ol>
+          <li><a href="#what-is-leakage">What is hospital revenue leakage?</a></li>
+          <li><a href="#common-sources">Common sources of revenue leakage in hospitals</a></li>
+          <li><a href="#measure-profitability">How to measure hospital profitability without confusing the metrics</a></li>
+          <li><a href="#reduce-leakage">A practical way to reduce revenue leakage</a></li>
+          <li><a href="#avoid">What hospital owners and leaders should avoid</a></li>
+          <li><a href="#takeaway">The key takeaway</a></li>
+          <li><a href="#faq">Frequently asked questions</a></li>
+        </ol>
+      </div>
+
+      <div class="blog-body">
+        <p>Hospital profitability improves when the hospital captures the revenue it has legitimately earned, controls avoidable costs, and uses its beds, staff, operating theatres and diagnostic services effectively. The first step is to find where expected revenue is lost between care delivery, billing, claims, collections and financial reporting.</p>
+        <p>A hospital can be busy and still struggle financially. Patient volumes may be rising while deductions, delayed claims, unbilled services, discounts or underused capacity quietly reduce the money available to run the hospital.</p>
+        <p>Improving profitability does not mean increasing every bill or cutting essential clinical resources. It means building clear, ethical systems so that services delivered are accurately documented, correctly billed, collected and monitored.</p>
+
+        <h2 id="what-is-leakage">What is hospital revenue leakage?</h2>
+        <p>Hospital revenue leakage is the loss of legitimate revenue because a service, charge, claim or collection is missed, delayed, incorrectly recorded or not followed up.</p>
+        <p>It can happen across the patient journey: from registration and admission through treatment, billing, discharge, insurance processing and final collection. VR Care's <a href="../hospital-operational-and-management-audit/index.html">hospital operational and management audit</a> also identifies billing, pharmacy, procedures, TPA processes and resource utilisation as areas where operational gaps can affect financial performance.</p>
+
+        <div class="blog-article-image">
+          <img src="blog-07-revenue-leakage-map.png" alt="Hospital revenue cycle from care documentation through charge capture, claims and payment reconciliation" loading="lazy">
+        </div>
+
+        <p>Revenue leakage is not the same as a clinical decision to provide or withhold care. Hospitals should never encourage unnecessary services, inaccurate coding or pressure on clinicians to increase billing. The goal is accurate capture and transparent collection for care that was appropriate and actually provided.</p>
+
+        <h2 id="common-sources">Common sources of revenue leakage in hospitals</h2>
+
+        <h3>1. Services delivered but not captured in the bill</h3>
+        <p>A procedure, consumable, diagnostic test or other service may be recorded in a clinical or departmental record but not transferred correctly into billing. This can happen when the workflow depends on manual slips, delayed entries or unclear responsibility between departments.</p>
+        <p>The remedy is a reconciled process between the clinical record, service record and final bill. Any charge should be supported by documentation and hospital policy.</p>
+
+        <h3>2. Packages and charge masters that are not maintained</h3>
+        <p>A package may not clearly state what is included, what is excluded, and how exceptions are handled. If tariff masters are outdated or staff apply them inconsistently, the hospital may underbill, overbill or face avoidable disputes.</p>
+        <p>Review packages and charge masters with clinical, finance and operations teams. Make updates controlled, approved and communicated.</p>
+
+        <h3>3. Pharmacy and consumable discrepancies</h3>
+        <p>Differences can appear between items issued, items used, items returned and items charged. Expiry, wastage, unrecorded returns, unauthorised discounts and unclear stock responsibility can also affect margins.</p>
+        <p>A regular reconciliation should compare pharmacy or stores issues with patient-level records, returns and billing, while respecting clinical documentation and patient-safety requirements.</p>
+
+        <h3>4. TPA and insurance claim delays or deductions</h3>
+        <p>Missing documents, incomplete pre-authorisation, coding or package mismatches, and late follow-up can delay claims or lead to deductions.</p>
+        <p>Track claims by payer, age, value and status. Review denial reasons to identify patterns, then fix the source process. Do not treat every deduction as a billing error or every denied claim as recoverable; assess each case against the payer contract and record.</p>
+
+        <h3>5. Discounts, waivers and credit notes without clear controls</h3>
+        <p>Discounts can be appropriate, but unclear approval limits make it hard to understand their financial impact. A hospital should record who approved the adjustment, why it was made, which service line it affected and whether the patient or payer was informed correctly.</p>
+
+        <h3>6. Capacity that is available but not productively used</h3>
+        <p>A hospital may have beds, operating theatres, ICU capacity or diagnostic equipment that are available but underused. Low utilisation can raise the cost per patient even when the hospital's fixed costs remain largely unchanged.</p>
+        <p>Review demand, scheduling, staffing, downtime, referral pathways and patient flow together. Increasing occupancy alone is not enough if the hospital cannot deliver safe, timely care.</p>
+
+        <h3>7. Outstanding receivables and incomplete follow-up</h3>
+        <p>Revenue recorded in the accounts is not always cash collected. Hospitals should review outstanding patient, corporate, insurer and TPA balances, using ageing categories and assigned follow-up responsibility.</p>
+        <p>Separate disputes, documentation gaps, payer delays and uncollectible balances. This makes the next action clearer than looking only at a total receivables figure.</p>
+
+        <h2 id="measure-profitability">How to measure hospital profitability without confusing the metrics</h2>
+        <p><strong>Revenue, ARPOB and EBITDA describe different things.</strong></p>
+        <ul>
+          <li><strong>Revenue</strong> shows the amount earned under the hospital's accounting and reporting rules.</li>
+          <li><strong>ARPOB</strong>, or average revenue per occupied bed, indicates revenue relative to occupied bed-days for a defined period.</li>
+          <li><strong>EBITDA</strong> is an operating-profit measure before interest, taxes, depreciation and amortisation. Its calculation and reporting basis should be consistent with the hospital's finance policy.</li>
+          <li><strong>Profitability</strong> depends on both revenue realisation and the costs associated with delivering services.</li>
+        </ul>
+        <p>A basic daily ARPOB calculation is:</p>
+        <div class="blog-formula">ARPOB per day = eligible hospital revenue for the period &divide; occupied bed-days for the same period</div>
+        <p>For example, if a hospital records &#8377;30 lakh of eligible inpatient revenue over 600 occupied bed-days, the ARPOB for that period is &#8377;5,000 per occupied bed-day. This is only an illustrative calculation, not a benchmark.</p>
+        <p>The numerator must be clearly defined. Public filings show that hospital groups may use different revenue inclusions &mdash; for example, some calculations exclude pharmacy or other income. That makes it important to document the hospital's own method and avoid direct peer comparisons unless the definitions match.</p>
+        <p>ARPOB should also be read alongside occupancy, payer mix, service mix, length of stay, collection performance and cost per case. ICRA's hospital-sector analysis discusses occupancy and ARPOB together when describing revenue trends, which reinforces the value of reading them as a set rather than relying on a single number.</p>
+
+        <h2 id="reduce-leakage">A practical way to reduce revenue leakage</h2>
+
+        <h3>Step 1: Map the revenue cycle</h3>
+        <p>Follow a sample of patient accounts from registration to final collection. Include cash, insurance, TPA and corporate cases. Mark where information, approvals, charges or documents move between departments.</p>
+
+        <h3>Step 2: Reconcile the records</h3>
+        <p>Compare clinical documentation, procedure and diagnostic records, pharmacy or stores issues, billing entries, claims, remittances and bank receipts. Investigate gaps rather than assuming their cause.</p>
+
+        <h3>Step 3: Quantify the issue</h3>
+        <p>Estimate the value and frequency of each gap. Separate one-time errors from recurring process failures. Review results by department, payer and service line where the data supports it.</p>
+
+        <h3>Step 4: Assign an owner and correction</h3>
+        <p>Each recurring issue needs a named process owner, a corrective action, a due date and a measure of completion. Training alone may not solve a system problem if the workflow or software still permits the same error.</p>
+
+        <h3>Step 5: Monitor a focused dashboard</h3>
+        <p>Hospital leaders can start with a small set of measures:</p>
+        <ul>
+          <li>Occupancy and occupied bed-days</li>
+          <li>ARPOB, with the formula documented</li>
+          <li>Net revenue by payer and service line</li>
+          <li>Billing adjustments, discounts and credit notes</li>
+          <li>Claims pending, denied and deducted by value and age</li>
+          <li>Receivables ageing and collections</li>
+          <li>Pharmacy and consumable reconciliation exceptions</li>
+          <li>Operating theatre and diagnostic utilisation</li>
+          <li>EBITDA or operating margin using a consistent finance definition</li>
+        </ul>
+
+        <div class="blog-article-image">
+          <img src="blog-07-profitability-dashboard.png" alt="Hospital dashboard showing occupancy, ARPOB, claims, receivables and operating costs" loading="lazy">
+        </div>
+
+        <p>The dashboard should help managers ask better questions. It should not replace a review of patient safety, service quality or the reasons behind a variance.</p>
+
+        <h2 id="avoid">What hospital owners and leaders should avoid</h2>
+        <p>Do not use ARPOB as a staff sales target or compare hospitals with different specialties, payer mix, service scope or revenue definitions as if they were equivalent.</p>
+        <p>Do not improve a margin report by delaying necessary spending, weakening safe staffing or discouraging appropriate care. Instead, look for avoidable rework, preventable denials, unplanned downtime, inefficient purchasing and process gaps that the hospital can correct responsibly.</p>
+        <p>For trustees, public-sector, PSU and institutional leaders, financial controls should also support transparency and accountable use of resources. A clear audit trail helps leaders understand how funds are earned, adjusted and collected.</p>
+
+        <h2 id="takeaway">The key takeaway</h2>
+        <p>A hospital improves profitability by understanding where revenue is earned, where it is lost, what it costs to deliver care, and whether the resulting cash is collected. Start with a structured review of the full revenue cycle, then fix the repeatable process gaps and monitor the results.</p>
+        <p>If your hospital needs a structured review, explore VR Care's <a href="../hospital-turnaround-and-profitability/index.html">hospital turnaround and profitability improvement</a> service, its <a href="../hospital-operations-and-management/index.html">hospital operations and management</a> service, or <a href="../contact.html">contact VR Care to discuss an assessment</a>.</p>
+      </div>
+
+      <div class="blog-author-box">
+        <div class="blog-author-avatar">AS</div>
+        <div>
+          <div class="blog-author-name">Afzal Shaikh, Founder of VR Care</div>
+          <div class="blog-author-bio">Afzal Shaikh has 25+ years of experience in hospital operations and management, supporting hospitals with operational improvement, systems and performance management.</div>
+        </div>
+      </div>
+
+      <div class="blog-share-cta">
+        <p style="font-weight: 600; color: var(--text-white); margin-bottom: 16px;">If your hospital is busy but margins are not improving, tell us where you suspect revenue is being lost. VR Care can help map the gap and identify a practical next step.</p>
+        <a href="../hospital-turnaround-and-profitability/index.html" class="btn-cta" style="display: inline-block;">Request a Profitability Review</a>
+      </div>
+
+      <div class="blog-body blog-faq" id="faq">
+        <h2>Frequently asked questions</h2>
+        <div class="blog-faq-item">
+          <h3>How can a hospital improve profitability?</h3>
+          <p>A hospital can improve profitability by capturing legitimate revenue accurately, reducing preventable claim deductions and delays, managing costs responsibly, improving capacity use and monitoring cash collection alongside revenue.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>What causes revenue leakage in a hospital?</h3>
+          <p>Common causes include missed or inaccurate charges, outdated tariffs, pharmacy and consumable discrepancies, incomplete claims, uncontrolled adjustments, underused capacity and weak receivables follow-up.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>How do you calculate ARPOB?</h3>
+          <p>Divide the eligible hospital revenue for a defined period by occupied bed-days for the same period. Define which revenue categories are included and use the same method consistently.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>Does a higher ARPOB always mean higher profit?</h3>
+          <p>No. ARPOB measures revenue per occupied bed-day, not profit. Costs, payer mix, occupancy, specialty mix, length of stay, claim deductions and the revenue definition all affect the final result.</p>
+        </div>
+        <div class="blog-faq-item">
+          <h3>Is hospital revenue the same as hospital profit?</h3>
+          <p>No. Revenue is the amount earned under the hospital's reporting rules. Profitability also depends on operating costs and the accounting basis used to calculate measures such as EBITDA.</p>
+        </div>
+      </div>
+
+      <div class="blog-body blog-further-reading">
+        <h2>Further reading</h2>
+        <ul>
+          <li><a href="../hospital-turnaround-and-profitability/index.html">VR Care: Hospital Turnaround &amp; Profitability</a></li>
+          <li><a href="../hospital-operational-and-management-audit/index.html">VR Care: Hospital Operational &amp; Management Audit</a></li>
+          <li><a href="../hospital-operations-and-management/index.html">VR Care: Hospital Operations &amp; Management</a></li>
+          <li>ICRA: Hospital-sector research on occupancy and ARPOB trends</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="../logo.png" alt="VR Care Logo" >
+            <span class="footer-logo-text">VR Care</span>
+          </div>
+          <p class="footer-tagline">Transforming Healthcare, One Hospital at a Time. India s trusted partner in hospital operations and excellence.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/vrcareHospitalManagement" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://www.instagram.com/vrcareindia/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/-afzali9/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://wa.me/919326330109" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.878-.788-1.47-1.761-1.643-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About VR Care</a></li>
+            <li><a href="../services.html">Our Services</a></li>
+            <li><a href="index.html">Blogs</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <ul class="footer-links">
+            <li><a href="../hospital-operations-and-management/index.html">Operations & Management</a></li>
+            <li><a href="../hospital-operational-and-management-audit/index.html">Operational Audit</a></li>
+            <li><a href="../hospital-o-and-m-pricing/index.html">O&M Pricing</a></li>
+            <li><a href="../hospital-turnaround-and-profitability/index.html">Turnaround & Profitability</a></li>
+            <li><a href="../new-hospital-project-planning/index.html">Project Planning</a></li>
+            <li><a href="../nabh-jci-and-international-healthcare-accreditations/index.html">NABH & JCI Accreditations</a></li>
+            <li><a href="../hospital-feasibility-study-dpr/index.html">Feasibility Study & DPR</a></li>
+            <li><a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <a href="https://www.google.com/maps/search/Pinnacle+Business+Park,+Mahakali+Caves+Road" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><span>First Floor, Pinnacle Business Park, Andheri East, Mumbai</span></a>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>+91 93263 30109</span>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>info@vrcare.in</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VR Care India. All Rights Reserved.</p>
+        <p class="footer-disclaimer">Disclaimer: All services are advisory and operational in nature. VR Care does not provide direct medical treatment or clinical care.</p>
+        <div class="footer-bottom-links">
+          <a href="../privacy-policy.html">Privacy Policy</a>
+          <a href="../terms-and-conditions.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:+919326330109" class="phone-float" aria-label="Call us">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+    </svg>
+  </a>
+  <a href="https://wa.me/919326330109" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.878-.788-1.47-1.761-1.643-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="../script.js"></script>
+</body>
+</html>
