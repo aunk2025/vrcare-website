@@ -51,8 +51,19 @@
     .afz-chips{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:30px 0 0}
     .afz-chips li{background:#fff;border:1px solid #e8ecf1;color:var(--bg-dark);font-size:14px;font-weight:600;padding:10px 16px;border-radius:999px}
     .afz-chips li:hover{border-color:var(--primary-teal)}
+    .afz-chips li.has-logo{position:relative;cursor:pointer}
+    .afz-chips li.has-logo:hover,.afz-chips li.has-logo:focus{border-color:var(--primary-teal);outline:none}
+    .afz-pop{display:none;position:absolute;left:50%;bottom:calc(100% + 12px);transform:translateX(-50%);width:210px;height:120px;background:#fff;border:1px solid #e8ecf1;border-radius:14px;padding:12px 16px;box-shadow:0 16px 36px rgba(11,17,32,.28);z-index:20;align-items:center;justify-content:center;pointer-events:none}
+    .afz-pop::after{content:"";position:absolute;left:50%;top:100%;transform:translateX(-50%);border:8px solid transparent;border-top-color:#fff}
+    .afz-chips li.has-logo.dark .afz-pop{background:var(--bg-dark);border-color:rgba(0,201,167,.5)}
+    .afz-chips li.has-logo.dark .afz-pop::after{border-top-color:var(--bg-dark)}
+    .afz-pop img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
+    .afz-chips li.has-logo:hover .afz-pop,.afz-chips li.has-logo:focus .afz-pop{display:flex;animation:afzpop .18s ease}
+    @keyframes afzpop{from{opacity:0;transform:translate(-50%,6px)}to{opacity:1;transform:translate(-50%,0)}}
     .afz-xp{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
     .afz-xp article{background:var(--bg-card);border:1px solid var(--border-color);border-radius:16px;padding:26px}
+    .afz-logo{background:#fff;border-radius:12px;height:120px;display:flex;align-items:center;justify-content:center;padding:12px 16px;margin-bottom:18px}
+    .afz-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
     .afz-xp h3{color:#fff;font-size:17px;margin-bottom:10px}
     .afz-xp p{color:var(--text-light);font-size:14.5px;line-height:1.7;margin:0}
     .afz-note{font-size:13px!important;color:var(--text-muted)!important;margin-top:24px}
@@ -115,6 +126,8 @@
             <a href="../new-hospital-project-planning/index.html">New Hospital Project Planning</a>
             <a href="../nabh-jci-and-international-healthcare-accreditations/index.html">NABH & JCI Accreditations</a>
             <a href="../hospital-feasibility-study-dpr/index.html">Feasibility Study & DPR</a>
+            <a href="../hospital-digital-transformation-hmis-ai/index.html">Digital Transformation (HMIS & AI)</a>
+            <a href="../hospital-training-capacity-building/index.html">Training & Capacity Building</a>
             <a href="../global-healthcare-leaders-circle/index.html">Leaders Circle</a>
           </div>
         </div>
@@ -202,28 +215,26 @@
       <h2>Experience across hospitals, diagnostics and healthcare organisations.</h2>
       <p class="afz-narrow">Afzal&rsquo;s professional experience includes engagements with the following institutions and organisations across hospital operations, management, consulting and healthcare technology. The nature and scope of involvement vary by assignment.</p>
       <ul class="afz-chips">
-        <li>Surana Group of Hospitals</li>
-        <li>New Hopewell Hospital</li>
-        <li>Hill View Hospital, Ranchi</li>
-        <li>Shankara Hospital</li>
-        <li>Arrow Group of Hospitals</li>
-        <li>Amretri Healthcare</li>
-        <li>i9 Innovations and Educations Pvt. Ltd.</li>
-        <li>MPCT Hospital</li>
-        <li>BKC Jumbo Hospital</li>
-        <li>NESCO Covid Center</li>
-        <li>ESIC Faridabad</li>
-        <li>BEL, Bengaluru</li>
-        <li>Kapadia Hospital</li>
-        <li>A1 Hospital</li>
-        <li>House of Doctors</li>
-        <li>Sapna Healthcare Center</li>
-        <li>Metropolitan Heart Institute</li>
-        <li>Hiranandani Hospital, Powai</li>
-        <li>Mangal Anand Nuclear Center</li>
-        <li>Nidan Diagnostics</li>
-        <li>AJ Hospital, Mangaluru</li>
-        <li>Trueway Labs</li>
+        <li class="has-logo dark" tabindex="0">Surana Group of Hospitals<span class="afz-pop" role="tooltip"><img src="logo-surana-hospital.webp" alt="Surana Hospital & Research Centre logo" width="600" height="187" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">New Hopewell Hospital<span class="afz-pop" role="tooltip"><img src="logo-hopewell-hospital-ranchi.webp" alt="Hopewell Multispeciality Hospital logo" width="600" height="473" loading="lazy"></span></li>
+        <li class="has-logo dark" tabindex="0">Hill View Hospital, Ranchi<span class="afz-pop" role="tooltip"><img src="logo-hill-view-hospital.webp" alt="Hill View Hospital &amp; Research Center logo" width="296" height="61" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Shankara Hospital<span class="afz-pop" role="tooltip"><img src="logo-shankara-superspeciality-hospital.webp" alt="Shankara Superspeciality Hospital logo" width="328" height="267" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Arrow Group of Hospitals<span class="afz-pop" role="tooltip"><img src="logo-arrow-multispeciality-hospital.webp" alt="Arrow Multispeciality Hospital logo" width="600" height="142" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Amretri Healthcare<span class="afz-pop" role="tooltip"><img src="logo-amretri-healthcare.webp" alt="Amretri Healthcare logo" width="600" height="94" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">i9 Innovations and Educations Pvt. Ltd.<span class="afz-pop" role="tooltip"><img src="logo-i9-innovations-education.webp" alt="i9 Innovations & Education logo" width="413" height="482" loading="lazy"></span></li>
+        <li class="has-logo dark" tabindex="0">MPCT Hospital<span class="afz-pop" role="tooltip"><img src="logo-mpct-hospital.webp" alt="MPCT Hospital logo" width="186" height="89" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">BKC Jumbo Hospital<span class="afz-pop" role="tooltip"><img src="logo-bkc-jumbo-bmc.webp" alt="Brihanmumbai Municipal Corporation emblem" width="290" height="288" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">NESCO Covid Center<span class="afz-pop" role="tooltip"><img src="logo-bkc-jumbo-bmc.webp" alt="Brihanmumbai Municipal Corporation emblem" width="290" height="288" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">ESIC Faridabad<span class="afz-pop" role="tooltip"><img src="logo-esic.webp" alt="ESIC Employees' State Insurance Corporation logo" width="482" height="482" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">BEL, Bengaluru<span class="afz-pop" role="tooltip"><img src="logo-bel-bharat-electronics.webp" alt="Bharat Electronics Limited logo" width="337" height="112" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Kapadia Hospital<span class="afz-pop" role="tooltip"><img src="logo-kapadia-hospital.webp" alt="Kapadia Multispeciality Hospital logo" width="600" height="125" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">A1 Hospital<span class="afz-pop" role="tooltip"><img src="logo-a1-superspeciality-healthcare.webp" alt="A1 Superspeciality Healthcare logo" width="600" height="142" loading="lazy"></span></li>
+        <li class="has-logo dark" tabindex="0">House of Doctors<span class="afz-pop" role="tooltip"><img src="logo-house-of-doctors.webp" alt="House of Doctors logo" width="600" height="168" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Sapna Healthcare Center<span class="afz-pop" role="tooltip"><img src="logo-sapna-health-care-centre.webp" alt="Sapna Health Care Centre logo" width="600" height="176" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Metropolitan Heart Institute<span class="afz-pop" role="tooltip"><img src="logo-metropolitan-heart-institute.webp" alt="Metropolitan Heart Institute logo" width="289" height="62" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Hiranandani Hospital, Powai<span class="afz-pop" role="tooltip"><img src="logo-hiranandani-hospital.webp" alt="Hiranandani Hospital logo" width="600" height="334" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">Nidan Diagnostics<span class="afz-pop" role="tooltip"><img src="logo-nidan-ventures.webp" alt="Nidan Ventures logo" width="230" height="74" loading="lazy"></span></li>
+        <li class="has-logo" tabindex="0">AJ Hospital, Mangaluru<span class="afz-pop" role="tooltip"><img src="logo-aj-hospital-research-centre.webp" alt="A. J. Hospital &amp; Research Centre logo, NABH accredited" width="343" height="107" loading="lazy"></span></li>
       </ul>
     </div>
   </section>
@@ -234,9 +245,9 @@
       <h2>Experience across operations and healthcare technology.</h2>
       <p class="afz-narrow">The following assignments are described on Afzal&rsquo;s public LinkedIn profile and illustrate his personal experience across hospital management and digital implementation.</p>
       <div class="afz-xp">
-        <article><h3>Surana Hospital &amp; Research Centre, Mumbai</h3><p>Hospital development and operational management within a municipal PPP framework, initially focused on cardiac care and later joint replacement services.</p></article>
-        <article><h3>Richardson &amp; Cruddas Jumbo COVID Care Centre, Mulund</h3><p>Digital systems deployment at a 2,000-bed emergency facility, covering patient registration, bed visibility, documentation and central reporting through Super Dr modules.</p></article>
-        <article><h3>Mandakini Scan Centre, Mumbai</h3><p>Process improvement across patient registration, scheduling, scan workflows, reporting turnaround and communication with referring consultants.</p></article>
+        <article><div class="afz-logo"><img src="logo-arrow-multispeciality-hospital.webp" alt="Arrow Multispeciality Hospital logo" width="600" height="142" loading="lazy"></div><h3>Arrow Multispeciality Hospital, Coimbatore, Tamil Nadu</h3><p>Operational and management support for a multispeciality hospital, including patient-flow improvement, CRM implementation, business development systems, telecalling processes, consultant coordination, billing and TPA workflows, departmental accountability, and structured revenue-growth initiatives.</p></article>
+        <article><div class="afz-logo"><img src="logo-hopewell-hospital-ranchi.webp" alt="Hopewell Multispeciality Hospital logo" width="600" height="473" loading="lazy"></div><h3>Hopewell Hospital, Ranchi, Jharkhand</h3><p>End-to-end operational planning and commissioning support for a new multispeciality hospital, including department setup, manpower planning, SOP development, staff recruitment, doctor onboarding, patient journey design, billing and TPA systems, diagnostics coordination, marketing strategy, quality systems, and management dashboards.</p></article>
+        <article><div class="afz-logo"><img src="logo-shankara-superspeciality-hospital.webp" alt="Shankara Superspeciality Hospital logo" width="328" height="267" loading="lazy"></div><h3>Shankara Superspeciality Hospital, Nagpur, Maharashtra</h3><p>Comprehensive hospital audit and performance-improvement assignment covering operations, marketing, TPA and insurance, consultant engagement, OT utilisation, revenue opportunities, staffing gaps, patient conversion, billing processes, specialty growth, KPI/KRA systems, and structured turnaround planning.</p></article>
       </div>
       <p class="afz-note">Source: Afzal Shaikh&rsquo;s LinkedIn profile. These are personal experience summaries; they do not imply current appointments, endorsements or contracts held by VR Care.</p>
     </div>
